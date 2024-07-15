@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon del sitio web -->
+    <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/svg+xml" />
+
+    <!-- Links librería de estilos del proyecto-->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!-- Descripción sitio web -->
+    <title>Viajes Chile</title>
+    <meta name="autor" content="Diego de los Santos V." />
+    <meta name="description" content="Viajes Chile" />
+    <meta name="keywords" content="Agencia de viaje, Turismo, Chile, Paisajes, Travel" />
+
+
+    <!-- Importación de fuentes y favicons: Google Fonts y Fontaesome -->
+
+    <script src="https://kit.fontawesome.com/db3fc8e186.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- sección navbar -->
+    <nav id="navbar">
+
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top navbar-transparent">
+            <div class="container-fluid mx-5 px-5">
+                <a class="navbar-brand fw-bold" href="./index.html" title="Logo Viajes Chile"><img
+                        src="./assets/img/viajes.svg" alt="logo" />Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto align-items-sm-center pb-3 pb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#presentacion">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </nav>
+
+    <!-- sección carousel -->
+    <section id="carousel">
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="LLamas desiento altiplanico">
+                    <div class="carousel-caption d-none d-md-block my-5">
+                        <h1 class="fw-bold">Descubre</h1>
+                        <h3>Explora los desiertos, glaciares y volcanes de Chile.</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="moais isla de pascua">
+                    <div class="carousel-caption d-none d-md-block my-5">
+                        <h1 class="fw-bold">Explora</h1>
+                        <h3>Descubre la magia de la Isla de Pascua.</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguino magallanico">
+                    <div class="carousel-caption d-none d-md-block my-5">
+                        <h1 class="fw-bold">Maravillate</h1>
+                        <h3>Encuentra el encanto de la fauna Patagonica.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" data-bs-toggle="mensaje"
+                    title="anterior"></span> <!-- botón anterior con funcionalidad Tooltip -->
+                <span class="visually-hidden">anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" data-bs-toggle="mensaje"
+                    title="siguiente"></span> <!-- botón siguiente con funcionalidad Tooltip -->
+                <span class="visually-hidden">siguiente</span>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- sección Presentación -->
+    <section id="presentacion" class="content text-center pt-3 ">
+
+        <h2 class="fs-2 fw-bold">¿Quienes Somos?</h2>
+
+        <div class="row">
+            <hr>
+            <div class="col-12 col-md-6 mb-5 d-none d-sm-block">
+                <img src="./assets/img/quienes-somos.jpg" alt="hero imagen" class=" ms-5 hero-devs rounded">
+            </div>
+            <div class="col-12 col-md-6 text-start mt-3 px-5 ms-0">
+                <p class="me-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab omnis consectetur est
+                    excepturi
+                    voluptas consequuntur corrupti dicta eveniet voluptatibus. Quo minus delectus unde sequi odio
+                    reprehenderit nostrum commodi? Atque, harum!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur eum tempore esse iure
+                    dignissimos ipsum error nemo. Molestiae blanditiis soluta itaque! Modi unde dicta obcaecati illo rem
+                    accusantium quidem?</p>
+                <p class="me-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, porro. Lorem ipsum
+                    dolor sit amet
+                    consectetur, adipisicing elit. Commodi sint culpa soluta cumque quia nulla velit placeat. Dolore ad
+                    accusantium, autem vitae praesentium sunt officiis at. Eos facere commodi corrupti?Quo nam, quia
+                    officiis iusto, error blanditiis fugit quisquam accusamus enim molestiae facilis voluptate nostrum
+                    ipsam
+                    repellendus! Pariatur, maxime eius?</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- sección Destacados -->
+    <section id="destacados">
+        <h2 class="text-center pt-3">Destacados</h2>
+        <hr>
+        <div class="row g-0 d-flex justify-content-center align-items-center ">
+            <!-- card 1 -->
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./assets/img/card1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 id="descripcion" class="card-title fw-bold">Región de los Lagos</h5>
+                            <span id="lugar" class="card-text">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Incidunt dolorem fugiat natus nostrum voluptatum nemo.</span>
+                        </div>
+                        <div class="card-header">
+                            <i class="fa-solid fa-plane-up fa-xs"></i>
+                            <span class="card-text text-left fs-6 fw-light" id="precio">Vuelos desde:</span>
+                            <span class=" text-right fw-bold fs-5">$159.990</span>
+                            <a data-bs-toggle="mensaje" title="ver más detalles" class="btn btn-secondary btn-sm d-grid"
+                                href="#">ver
+                                más</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./assets/img/card2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 id="descripcion" class="card-title fw-bold">Desierto de Atacama</h5>
+                            <span id="lugar" class="card-text">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Incidunt dolorem fugiat natus nostrum voluptatum nemo.</span>
+                        </div>
+                        <div class="card-header">
+                            <i class="fa-solid fa-plane-up fa-xs"></i>
+                            <span class="card-text text-start fs-6 fw-light" id="precio">Vuelos desde:</span>
+
+                            <span class=" text-right fw-bold fs-5">$189.990</span>
+                            <a data-bs-toggle="mensaje" title="ver más detalles" class="btn btn-secondary btn-sm d-grid"
+                                href="#">ver
+                                más</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./assets/img/card3.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 id="descripcion" class="card-title fw-bold">Norte grande e Chile</h5>
+                            <span id="lugar" class="card-text">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Incidunt dolorem fugiat natus nostrum voluptatum nemo.</span>
+                        </div>
+                        <div class="card-header">
+                            <i class="fa-solid fa-plane-up fa-xs"></i>
+                            <span class="card-text text-start fs-6 fw-light" id="precio">Vuelos desde:</span>
+
+                            <span class=" text-right fw-bold fs-5">$289.990</span>
+                            <a data-bs-toggle="mensaje" title="ver más detalles" class="btn btn-secondary btn-sm d-grid"
+                                href="#">ver
+                                más</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="card mb-3 mx-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./assets/img/card4.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 id="descripcion" class="card-title fw-bold">Bosque mágico</h5>
+                            <span id="lugar" class="card-text">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Incidunt dolorem fugiat natus nostrum voluptatum nemo.</span>
+                        </div>
+                        <div class="card-header">
+                            <i class="fa-solid fa-plane-up fa-xs"></i>
+                            <span class="card-text text-start fs-6 fw-light" id="precio">Vuelos desde:</span>
+
+                            <span class=" text-right fw-bold fs-5">$259.990</span>
+                            <a data-bs-toggle="mensaje" title="ver más detalles" class="btn btn-secondary btn-sm d-grid"
+                                href="#">ver
+                                más</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!-- sección Testimonios -->
+    <section id="contacto" class="testimonials">
+        <h2 class="testimonials__title">Testimonios</h2>
+        <hr>
+        <div class="testimonials__list">
+            <div class="testimonial">
+                <p class="testimonial__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis quisquam voluptas sit provident
+                    culpa hic vitae, sunt eligendi rem.
+                </p>
+                <div class="testimonial__author">
+                    <img src="./assets/img/testimonio1.jpg" alt="Mariela" class="testimonial__photo">
+                    <p class="testimonial__name">Mariela</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis quisquam voluptas sit provident
+                    culpa hic vitae, sunt eligendi rem.
+                </p>
+                <div class="testimonial__author">
+                    <img src="./assets/img/testimonio2.jpg" alt="Christian" class="testimonial__photo">
+                    <p class="testimonial__name">Christian</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis quisquam voluptas sit provident
+                    culpa hic vitae, sunt eligendi rem.
+                </p>
+                <div class="testimonial__author">
+                    <img src="./assets/img/testimonio3.jpg" alt="Fernanda" class="testimonial__photo">
+                    <p class="testimonial__name">Fernanda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- sección Footer -->
+    <footer>
+        <h2 class="text-center">Contacto</h2>
+        <hr>
+        <!-- Alerta -->
+        <div id="alertContainer"></div>
+        <div class="row ms-2 px-3">
+
+            <div id="form" class="col-md-6 col-12 mx-auto">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-6">
+                        <label for="validationCustom01" class="form-label">Nombre</label>
+                        <i class="fa-solid fa-circle-info" data-bs-toggle="mensaje" data-bs-placement="right"
+                            data-bs-title="Ingresa tu nombre completo"></i>
+                        <input type="text" class="form-control" id="validationCustom01" required>
+                        <div class="invalid-feedback">
+                            Ingrese su Nombre.
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <label for="validationemail" class="form-label">Email</label>
+                        <i class="fa-solid fa-circle-info" data-bs-toggle="mensaje" data-bs-placement="right"
+                            data-bs-title="Ingresa tu correo electrónico"></i>
+                        <input type="email" class="form-control" id="validationemail" required>
+                        <div class="invalid-feedback">
+                            Ingrese un correo valido.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="validationTextarea" class="form-label">mensaje</label>
+                        <i class="fa-solid fa-circle-info" data-bs-toggle="mensaje" data-bs-placement="right"
+                            data-bs-title="Escribe tu mensaje"></i>
+                        <textarea class="form-control" id="validationTextarea" required></textarea>
+                        <div class="invalid-feedback">
+                            Por favor ingrese su mensaje.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                <p>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModalScrollable">
+                                        Acepto los términos y condiciones
+                                    </a>
+                                </p>
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <button id="alertBtn" type="enviar" class="btn btn-secondary mb-3">Enviar</button>
+                    </div>
+                </form>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalScrollable" tabindex="-1"
+                    aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content bg-dark text-white">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalScrollableTitle">Términos y Condiciones</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Términos y Condiciones:</p>
+                                <!-- Agrega más contenido para hacer el modal desplazable -->
+                                <p>I.- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et blandit dui.
+                                    Pellentesque nunc quam, placerat ac lorem vitae, consequat convallis tellus. Nunc
+                                    posuere vehicula urna. Aliquam erat volutpat. Quisque ipsum sapien, ultricies ut
+                                    sapien vitae, pharetra lobortis ligula. Nunc eget eleifend urna. Sed cursus augue ut
+                                    ante varius, vitae sagittis ex placerat. Suspendisse viverra diam id eros placerat
+                                    ullamcorper. Integer est augue, cursus id malesuada vel, posuere nec ante. Vivamus
+                                    ultrices ex ac nulla ornare feugiat. Nam pharetra mi vel lacus placerat placerat.
+                                </p>
+                                <p>II.- Fusce orci leo, faucibus ac aliquet ac, tempus in odio. Praesent ornare lorem
+                                    sit
+                                    amet ex efficitur, sed malesuada ipsum convallis. Cras odio mauris, condimentum ac
+                                    condimentum sed, tristique non orci. Donec volutpat augue at felis luctus viverra.
+                                    In hac habitasse platea dictumst. Praesent malesuada ornare elit, at luctus orci
+                                    blandit vitae. In hac habitasse platea dictumst. Nulla vel vehicula nisi, iaculis
+                                    dignissim mauris. Pellentesque non odio a erat convallis faucibus. Maecenas vitae
+                                    dignissim nisl, nec finibus urna. </p>
+                                <p>III.- Pellentesque vehicula tellus laoreet dictum iaculis. Morbi porttitor ac sem et
+                                    sollicitudin. Mauris ipsum odio, laoreet quis ligula id, lacinia suscipit dolor.
+                                    Etiam mattis ultrices sodales. Quisque sollicitudin pharetra mauris, vel
+                                    sollicitudin mauris feugiat vel. Aenean malesuada ex eu luctus congue. Nam commodo
+                                    ante purus, vel tristique neque ullamcorper quis. Vestibulum efficitur lectus nec mi
+                                    hendrerit interdum. Nunc varius hendrerit justo, ut sodales dui lobortis ac. Ut eget
+                                    est vel dui molestie bibendum sed quis ex. Etiam eu purus nunc. Morbi quis egestas
+                                    justo, non eleifend purus. Integer lacinia molestie eros, ut fringilla purus finibus
+                                    id. Maecenas ullamcorper risus turpis, eget blandit ligula luctus faucibus.
+                                </p>
+                                <p>
+                                    IV.- Sed lobortis interdum nisi a efficitur. Duis dictum pulvinar tincidunt. Donec
+                                    sed
+                                    pulvinar diam. Aenean id cursus ipsum. In hac habitasse platea dictumst. Vivamus
+                                    consectetur orci leo, et ornare lacus egestas vitae. Sed eu tristique sem. Ut
+                                    ultricies, tortor eu congue auctor, tellus orci tristique erat, vitae gravida mi
+                                    turpis sit amet magna. Aliquam vel tellus at libero luctus pulvinar rutrum vel
+                                    magna. Phasellus blandit placerat lacus.
+                                </p>
+                                <p>V.- Duis magna velit, lobortis id consectetur et, pretium a nunc. Fusce scelerisque
+                                    suscipit eros, eget finibus neque hendrerit eget. In at nulla a enim mattis rutrum.
+                                    Suspendisse non commodo nulla. Duis semper a augue commodo consequat. Phasellus
+                                    varius facilisis libero ut convallis. Sed at condimentum ex. </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                                    id="acceptButton">Acepto Términos y condiciones</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- redes sociales -->
+            <div class="col-md-6 col-12 mt-3">
+                <div class="col-6 mb-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+56999887766</span>
+                </div>
+                <div class="col-6 mb-2">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>contacto@viajeschile.com</span>
+                </div>
+                <div class="col-6 mb-2">
+                    <a target="_blank" href="http://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <span>ViajesChile</span>
+                </div>
+                <div class="col-6 mb-2">
+                    <a target="_blank" href="http://www.github.com"><i class="fa-brands fa-github"></i></a>
+                    <span>Perfil GitHub</span>
+                </div>
+                <div class="col-6 mb-2">
+                    <a target="_blank" href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <span>Viajes_Chile</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botón volver arriba "scroll" -->
+        <button id="scroll" title="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+    </footer>
+
+
+
+    <!-- Libreria local de JavaScript -->
+    <script type="module" src="./assets/js/script.js"></script>
+
+
+
+
+
+</body>
+
+</html>

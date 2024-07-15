@@ -1,0 +1,9 @@
+@mixin flex-abs() {
+    display: flex;
+    position: absolute;
+}
+
+@mixin posicion-r() {
+    display: flex;
+    position: relative;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "actualizacion-viajeschile",
+  "version": "1.0.0",
+  "description": "Este proyecto consiste en la actualización de la página web de la agencia **Viajes Chile**, implementando diversos componentes y estilos aprendidos en el módulo correspondiente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  }
+}

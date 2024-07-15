@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+/*...................Estilos contenido navbar....................... */
+body {
+  background-color: #F4F1E5;
+}
+body a {
+  color: #F4F1E5;
+  /* Cambia este color según tus preferencias */
+}
+
+.navbar-transparent {
+  background-color: transparent;
+}
+
+.navbar-scroll {
+  background-color: #2e2b2b;
+  /* Change this to your desired color */
+}
+
+.navbar {
+  transition: background-color 0.5s;
+  /* Adjust transition duration as needed */
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-size: 1.5rem !important;
+}
+.navbar-brand img {
+  width: 35px;
+  vertical-align: text-top;
+}
+
+/*..................Estilos contenido carousel...................... */
+#carousel img {
+  height: 500px;
+  background-size: contain;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 5.5%;
+}
+
+@media screen and (max-width: 600px) {
+  #carousel img {
+    height: 300px;
+  }
+}
+#carousel-inner {
+  font-family: "Lato";
+  color: #F4F1E5;
+}
+
+/* Efecto transción de slade del carousel */
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+/*..................Estilos contenido Presentación...................... */
+#presentacion {
+  background-color: #F4F1E5;
+  font-family: "Poppins";
+  color: #30384A;
+}
+#presentacion img {
+  width: 80%;
+}
+
+#destacados {
+  background-color: #758E95;
+  font-family: "Poppins";
+  color: #F4F1E5;
+}
+
+.card-body {
+  font-family: "Poppins";
+  color: #30384A;
+}
+
+.card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+/*..................Estilos contenido contacto........................ */
+#contacto {
+  background-color: #30384A;
+  color: #F4F1E5;
+  font-family: "Poppins";
+}
+
+/*..................Estilos contenido Testimonios...................... */
+.testimonials {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.testimonials__title {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.testimonials__list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 25px;
+}
+
+.testimonial__text {
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial__author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial__photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial__name {
+  font-size: 1.1em;
+}
+
+@media screen and (min-width: 600px) {
+  .testimonials__title {
+    font-size: 2.5em;
+  }
+  .testimonial {
+    padding: 20px;
+  }
+  .testimonial__text {
+    font-size: 1.1em;
+  }
+  .testimonial__name {
+    font-size: 1.2em;
+  }
+}
+/*..................Estilos contenido Footer...................... */
+footer {
+  background-color: #373A3C;
+  color: #F4F1E5;
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+footer img {
+  width: 35px;
+  vertical-align: text-top;
+}
+
+/*..................Estilos botón scroll...................... */
+#scroll {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #8CB67C;
+  color: #F4F1E5;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+}/*# sourceMappingURL=main.css.map */

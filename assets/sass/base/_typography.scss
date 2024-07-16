@@ -1,9 +1,11 @@
 // Base styles
 body {
     background-color: #F4F1E5;
+    font-family: "Open Sans";
 
+// Color asignado a link con etiqueta a
     a {
-        color: #F4F1E5;
+        color: $primary;
     }
 
 }

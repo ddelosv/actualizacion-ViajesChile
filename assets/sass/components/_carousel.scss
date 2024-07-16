@@ -5,11 +5,15 @@
         background-size: contain;
         padding-left: 5%;
         padding-right: 5%;
+        border-radius: 15px;
     }
 }
 
 @media (max-width: 600px) {
     #carousel {
+        padding-left: 0%;
+        padding-right: 0%;
+
         img {
             height: 300px;
         }
@@ -20,7 +24,6 @@
 
 #carousel-inner {
     font-family: "Lato";
-    color: #F4F1E5;
 }
 
 

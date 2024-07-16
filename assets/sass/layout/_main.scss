@@ -1,8 +1,6 @@
 /*..................Estilos contenido Presentación...................... */
 #presentacion {
-    background-color: #F4F1E5;
-    font-family: "Poppins";
-    color: #30384A;
+    font-family:$font-family;
 
     img {
         width: 85%;
@@ -10,16 +8,14 @@
 }
 
 #destacados {
-    background-color: #758E95;
-    font-family: "Poppins";
-    color: #F4F1E5;
+    font-family:$font-family;
 }
 
 
 
 .card-body {
-    font-family: "Poppins";
-    color: #30384A;
+    font-family:$font-family;
+    color:$secondary;
 }
 
 .card {

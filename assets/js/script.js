@@ -22,13 +22,6 @@ $('h5').click(function () {
     $(this).parent().find('#lugar').toggle();
 });
 
-//Al hacer doble click a etiqueta h3, solamente modificar el color del texto de los títulos H3. 
-$("h3").dblclick(function () {
-    $(this).css({
-        "color": "green"
-    });
-});
-
 
 //Botón scroll volver Arriba.
 $(document).ready(function () {
@@ -53,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 
-// script de validacion de formulario
+// script de validacion de formulario.
 (() => {
     'use strict'
     const forms = document.querySelectorAll('.needs-validation')
@@ -78,13 +71,13 @@ $(document).ready(function () {
 });
 
 
-// JavaScript para marcar la casilla de verificación al hacer clic en el botón Aceptar
+// JavaScript para marcar la casilla de verificación al hacer clic en el botón Aceptar.
 document.getElementById('acceptButton').addEventListener('click', function () {
     document.getElementById('invalidCheck').checked = true;
 });
 
 
-// Alerta mensaje enviado
+// Alerta mensaje enviado.
 $(function () {
     $("#alertBtn").on("click", function () {
         alert("Mensaje Enviado con exito","success");

@@ -1,6 +1,6 @@
 @mixin flex-abs() {
     display: flex;
-    position: absolute;
+    justify-content: center;
 }
 
 @mixin posicion-r() {

@@ -12070,6 +12070,7 @@ body a {
 .testimonials__title {
   font-size: 2rem;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 .testimonials__list {
   display: flex;
@@ -12150,7 +12151,7 @@ footer img {
   bottom: 20px;
   right: 20px;
   background-color: #8CB67C;
-  color: #30384A;
+  color: #F4F1E5;
   border: none;
   padding: 10px;
   cursor: pointer;

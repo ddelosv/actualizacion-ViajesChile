@@ -1,2 +1,11 @@
 @import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./base/reset";
+@import "./base/typography";
+@import "./components/carousel";
+@import "./layout/header";
 @import "./layout/main";
+@import "./layout/testimonios";
+@import "./layout/footer";
+  
+
+

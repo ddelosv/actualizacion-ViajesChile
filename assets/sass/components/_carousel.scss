@@ -1,0 +1,35 @@
+/*..................Estilos contenido carousel...................... */
+#carousel {
+    img {
+        height: 500px;
+        background-size: contain;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    #carousel {
+        img {
+            height: 300px;
+        }
+
+    }
+
+}
+
+#carousel-inner {
+    font-family: "Lato";
+    color: #F4F1E5;
+}
+
+
+/* Efecto transción de slade del carousel */
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-fade .carousel-item.active {
+    opacity: 1;
+}

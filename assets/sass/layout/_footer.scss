@@ -1,0 +1,32 @@
+/*..................Estilos contenido contacto........................ */
+#contacto {
+    background-color: #30384A;
+    color: #F4F1E5;
+    font-family: "Poppins";
+}
+
+/*..................Estilos contenido Footer...................... */
+footer {
+    background-color: #373A3C;
+    color: #F4F1E5;
+    font-family: "Poppins";
+    font-size: 1rem;
+
+    img {
+        width: 35px;
+        vertical-align: text-top;
+    }
+}
+
+/*..................Estilos botón scroll...................... */
+#scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8CB67C;
+    color: #F4F1E5;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+}

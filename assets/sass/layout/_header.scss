@@ -1,0 +1,38 @@
+/*...................Estilos contenido navbar....................... */
+
+
+
+.navbar {
+    transition: background-color 0.5s;
+
+    &-brand {
+        font-family: "Poppins";
+        font-size: 1.5rem !important;
+
+        img {
+            width: 35px;
+            vertical-align: text-top;
+        }
+    }
+
+    &-transparent {
+        background-color: transparent;
+    }
+
+    &-scroll {
+        background-color: #2e2b2b;
+
+    }
+    
+}
+
+.container-fluid{
+    padding: 0 85px;
+}
+
+@media (max-width: 600px) {
+    .container-fluid {
+        padding: 0 25px;
+    }
+
+}

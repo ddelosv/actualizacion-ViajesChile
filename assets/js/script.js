@@ -6,7 +6,7 @@ import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 // script para que la barra de navegacion cambie de color al desplazarse.
 $(document).ready(function () {
     var navbar = $('.navbar');
-    var scrollThreshold = 500; //se Ajustar el punto de desplazamiento para la transición.
+    var scrollThreshold = 400; //se Ajustar el punto de desplazamiento para la transición.
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > scrollThreshold) {

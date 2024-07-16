@@ -1,6 +1,3 @@
-// importación de librería bootstrap.
-import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
-
 
 // script para que la barra de navegacion cambie de color al desplazarse.
 $(document).ready(function () {
